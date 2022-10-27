@@ -1,0 +1,62 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+
+@font-face {
+	font-family: 'FontCursive';
+	src: url('../fonts/MsMadi-Regular.eot');
+	src: local('☺'), url('../fonts/MsMadi-Regular.woff') format('woff'), url('fonts/MsMadi-Regular.ttf') format('truetype'), url('fonts/MsMadi-Regular.svg') format('svg');
+	font-weight: 500 ;
+	font-style: normal;
+}
+
+* {
+	padding: 0px;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	height: 100vh;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+
+}
+.col{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.col h2{
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
+	transition: background 0.3s;
+
+}
+.col h2:hover{
+	background: rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+.col input{
+	outline: none;
+	border: none;
+	background: transparent;
+	height: 60px;
+	padding: 10px;
+	border-radius: 10px;
+	transition: background 0.3s;
+}
+.col input:hover{
+	border: none;
+	background: transparent;
+	background: rgba(0, 0, 0, 0.1);
+	color: #fff;
+	padding: 10px;
+	size: 10px;
+	border-radius: 10px;
+}
